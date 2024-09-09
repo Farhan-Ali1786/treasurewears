@@ -72,10 +72,10 @@
        <div class="location_main">WhatsApp Number : <a href="tel:+17139253720">+1 (713) 925-3720</a></div>
        <div class="footer_menu">
         <ul>
-                    <li> <a href="https://wa.me/17139253720"><i class="fa-brands fa-whatsapp"></i></a></li>
-                    <li>  <a href="https://www.instagram.com/treasure_wears_09/"><i class="fa-brands fa-instagram"></i></a></li>
-                    <li>  <a href="https://www.facebook.com/profile.php?id=61555818713264&mibextid=LQQJ4d"><i class="fa-brands fa-facebook"></i></a></li>
-                    <li>  <a href="mailto:info@treasurewears.com"><i class="fa-solid fa-envelope"></i></a></li>
+                    <li> <a href="https://wa.me/17139253720"><i class="fa-brands fa-whatsapp" style="color: green"></i></a></li>
+                    <li>  <a href="https://www.instagram.com/treasure_wears_09/"><i class="fa-brands fa-instagram" style="color:red "></i></a></li>
+                    <li>  <a href="https://www.facebook.com/profile.php?id=61555818713264&mibextid=LQQJ4d"><i class="fa-brands fa-facebook" style="color: rgb(19, 90, 197)"></i></a></li>
+                    <li>  <a href="mailto:info@treasurewears.com"><i class="fa-solid fa-envelope" style="color: rgb(135, 175, 250)"></i></a></li>
                     {{-- <li>  <a href="mailto:treasurewear09@gmail.com"><i class="fa-solid fa-facebook"></i></a></li> --}}
 
         </ul>

@@ -68,6 +68,12 @@
 
         </div>
         <div class="carousel-item ">
+            <img class="d-block w-100 h-100" src="{{ asset('front/images/boxes1.jpg') }}" alt="Third slide">
+        </div>
+        <div class="carousel-item ">
+            <img class="d-block w-100 h-100" src="{{ asset('front/images/boxes2.jpg') }}" alt="Third slide">
+        </div>
+        <div class="carousel-item ">
             <img class="d-block w-100 h-100" src="{{ asset('front/images/IMG_2981.JPG') }}" alt="Third slide">
         </div>
     </div>
