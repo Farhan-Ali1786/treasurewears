@@ -1,0 +1,27 @@
+@extends('front.layout.layout')
+@section('content')
+<div class="container">
+    <div class="fashion_section_2">
+        <h1 class="fashion_taital">Custom Cigarette Boxes</h1>
+    <div class="row">
+        @foreach ($Cigarette as $item)
+            <div class="col-lg-4 my-3">
+                <div class="card" style="width: 22rem;">
+                    <img src="{{ asset('upload/Cigarette/') }}/{{ $item->image }}" class="card-img-top woman-img" alt="{{ $item->heading }}">
+                    <div class="card-body">
+                        <h5 class="card-title">{{ $item->heading }}</h5>
+                        <p class="card-text">{{ $item->description }}</p>
+                        <p class="card-text card-text_inquiry"> Inquiry New </p>
+                        <div class="btn_main">
+                            <div class="buy_bt text-center">
+                                <a href="{{ route('cigaretteProductView', $item->id) }}">Buy Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        @endforeach
+    </div>
+</div>
+</div>
+@endsection
