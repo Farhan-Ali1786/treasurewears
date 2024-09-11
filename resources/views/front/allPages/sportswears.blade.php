@@ -36,7 +36,7 @@
                         <p class="card-text">{{ $item->description }}</p>
                         <p class="card-text card-text_inquiry"> Inquiry New </p>
 
-                        {{-- <p class="card-text"><small class="text-muted">Price: {{ $item->price }}</small></p> --}}
+                        <p class="card-text"><small class="text-muted">Price: <b>$ {{ $item->price }}</b></small></p>
                         <div class="btn_main">
                             <div class="buy_bt text-center">
                                 <a href="{{ route('sportswears', $item->id) }}">Buy Now</a>
